@@ -1,0 +1,4 @@
+
+$ cd spider-robot
+
+$ python3 ./test/drivers-tests.py
