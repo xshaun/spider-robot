@@ -1,0 +1,8 @@
+//
+// Chrome 中登陆 ‘http://qun.qzone.qq.com/group’
+// 
+// 打开 Developer tools， 快捷键为 ctrl+shift+i
+// 
+// 在 ‘Console’ 窗口中粘贴以下代码，按下回车
+// 
+var l= document.getElementById("my_group_list_container").getElementsByTagName("a"); for (var i=0; i<l.length; i++)console.log('id:'+l[i].getAttribute('data-groupid')+' name:'+ l[i].title);

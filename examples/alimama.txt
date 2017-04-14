@@ -1,0 +1,48 @@
+# 阿里妈妈 数据爬取脚本
+
+
+
+
+
+# ----------------Linux Ubuntu------------------
+#
+# -> OS Ubuntu 14.04
+# -> Python 3.4.3
+# -> Chrome Version 56.0.2924.87 (64-bit)
+#
+# -1- 安装 python3.4
+sudo apt-get install python3.4-dev  
+#
+# -2- 安装 python selenium
+sudo pip3 install selenium
+sudo pip3 install requests
+#
+# -3- Download ChromeDriver executable 
+https://chromedriver.storage.googleapis.com/index.html?path=2.27/
+  -- chromedriver_linux32.zip
+    $ wget https://chromedriver.storage.googleapis.com/2.27/chromedriver_linux32.zip
+
+  -- chromedriver_linux64.zip 
+    $ wget https://chromedriver.storage.googleapis.com/2.27/chromedriver_linux64.zip
+
+  -- chromedriver_mac64.zip
+    $ wget https://chromedriver.storage.googleapis.com/2.27/chromedriver_mac64.zip
+
+  -- chromedriver_win32.zip
+    $ wget https://chromedriver.storage.googleapis.com/2.27/chromedriver_win32.zip
+#
+# -4- 解压将 chromedriver 放置 /usr/bin 
+sudo mv ./chromedriver /usr/bin
+#
+# -5- 修正参数并运行 alimama.py 脚本
+python3 ./alimama.py
+
+
+# ----------------Windows------------------
+按照计算机位数点击相应 bat 文件， 进行运行环境的安装和脚本的运行
+
+！-1-！_____________________________________________________
+   |  bat 脚本安装的 python 并未将 python 路径加入 path 变量中。|
+   |  可以将 python 路径加入path， 也可以使用绝对路径执行 python |
+   |_______________________________________________________|
+
