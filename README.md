@@ -39,6 +39,7 @@
 
 ## 如何自己编写spider-robot
 打开以下链接CV大法:
+
 +.[https://github.com/SeleniumHQ/selenium/blob/master/py/selenium/webdriver/remote/webdriver.py](https://github.com/SeleniumHQ/selenium/blob/master/py/selenium/webdriver/remote/webdriver.py)
 +.[http://docs.seleniumhq.org/docs/04_webdriver_advanced.jsp#explicit-and-implicit-waits-reference](http://docs.seleniumhq.org/docs/04_webdriver_advanced.jsp#explicit-and-implicit-waits-reference)
 +.[http://docs.seleniumhq.org/docs/03_webdriver.jsp#moving-between-windows-and-frames](http://docs.seleniumhq.org/docs/03_webdriver.jsp#moving-between-windows-and-frames)
