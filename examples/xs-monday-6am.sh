@@ -59,17 +59,17 @@ curl -A "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)" --insecure -d "user
 #
 # stall_weeks=1%2C1%2C982%2C0%2C302%2C2 映射 1 weekend with electricity $302.00
 # stall_weeks=1%2C0%2C982%2C0%2C272%2C2 映射 1 weekend $272.00
-# stall_weeks=1%2C1%2C982%2C10%2C148.25%2C2 映射 1 Sunday with electricity $148.25
-# stall_weeks=1%2C0%2C982%2C10%2C133.25%2C2 映射 1 Sunday $133.25
+# stall_weeks=1%2C1%2C982%2C10%2C151%2C2 映射 1 Sunday with electricity $151
+# stall_weeks=1%2C0%2C982%2C10%2C136%2C2 映射 1 Sunday $136
 echo -e "\n\n--rush--"
 arr=(
   "1%2C1%2C982%2C0%2C302%2C2"
 
   "1%2C0%2C982%2C0%2C272%2C2"
 
-  "1%2C1%2C982%2C10%2C148.25%2C2"
+  "1%2C1%2C982%2C10%2C151%2C2"
 
-  "1%2C0%2C982%2C10%2C133.25%2C2"
+  "1%2C0%2C982%2C10%2C136%2C2"
   )
 for i in ${arr[@]}; do
   echo -e "\n\n--send-to--${i}--"
