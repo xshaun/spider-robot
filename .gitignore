@@ -90,3 +90,14 @@ ENV/
 
 # IDE idea 
 .idea/
+
+# Mac
+.DS_Store
+
+# office
+~*.xlsx
+~*.docs
+~*.pptx
+
+examples/data-**/*
+
